@@ -2,7 +2,7 @@
 
 ### Статьи / Документация
 
-- [Оригинальная документация](https://docs.python.org/3.12/library/re.html)
+- [Оригинальная документация](https://docs.python.org/3/library/re.html)
 - [Очень подробный и обстоятельный материал](https://www.regular-expressions.info/)
 - [Регулярные выражения в Python от простого к сложному. Подробности, примеры, картинки, упражнения](https://habr.com/ru/articles/349860/)
 - [Полное руководство по regex](https://techrocks.ru/2022/05/31/regex-complete-guide/)
