@@ -15,6 +15,7 @@
 - [Разные сложные трюки и тонкости с примерами](http://www.rexegg.com/)
 - ВикиУчебник: [Регулярные выражения](https://ru.wikibooks.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F)
 - [Использование регулярных выражений в Python](https://docs-python.ru/standart-library/modul-re-python/)
+- [Хватит использовать \[a-zа-яё\]: правильная работа с символами и категориями Unicode в регулярных выражениях](https://habr.com/ru/articles/713256/)
 
 ### Видео
 
