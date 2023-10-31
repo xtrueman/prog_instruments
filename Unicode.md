@@ -20,6 +20,11 @@
 - [UTF-8 — ЧТО ЭТО И ЗАЧЕМ НУЖНА КОДИРОВКА СИМВОЛОВ](https://ruweb.net/articles/utf-8-chto-eto-i-zachem-nuzhna-kodirovka-simvolov)
 - [What is UTF-8, UTF-16, UTF-32?](https://sriramadasvijay.medium.com/what-is-utf-8-utf-16-utf-32-d6d52f1f2ec7)
 
+#### ZWJ-Emoji
+
+- [https://symbl.cc/ru/a/unicode/standard/reports/uts52/](https://symbl.cc/ru/a/unicode/standard/reports/uts52/)
+- [Под капотом у Emoji](https://habr.com/ru/companies/itelma/articles/549366/)
+
 ### Документация
 
 - [unicodedata — Unicode Database](https://docs.python.org/3/library/unicodedata.html)
