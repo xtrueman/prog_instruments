@@ -575,6 +575,9 @@ test(x2)
 Логгер `MyApp.MyClass2` (в классе `MyClass2`) логирует только `ERROR` и `CRITICAL` в `errors.log`.
 
 ## Ссылки
-[logging](https://docs.python.org/3/library/logging.html)
-[Logging HOWTO](https://docs.python.org/3/howto/logging.html)
-[Loggint Cookbook](https://docs.python.org/3/howto/logging-cookbook.htm)
+
+- [logging](https://docs.python.org/3/library/logging.html)
+- [Logging HOWTO](https://docs.python.org/3/howto/logging.html)
+- [Loggint Cookbook](https://docs.python.org/3/howto/logging-cookbook.htm)
+
+© Timur Nozadze
