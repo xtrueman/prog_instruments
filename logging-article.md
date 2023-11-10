@@ -576,8 +576,8 @@ test(x2)
 
 ## Ссылки
 
-- [logging](https://docs.python.org/3/library/logging.html)
-- [Logging HOWTO](https://docs.python.org/3/howto/logging.html)
-- [Loggint Cookbook](https://docs.python.org/3/howto/logging-cookbook.htm)
+- Python docs: [logging](https://docs.python.org/3/library/logging.html) module
+- Python docs: [Logging HOWTO](https://docs.python.org/3/howto/logging.html)
+- Python docs: [Loggint Cookbook](https://docs.python.org/3/howto/logging-cookbook.htm)
 
 © Timur Nozadze
