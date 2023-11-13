@@ -17,6 +17,7 @@ class CustAdapter(logging.LoggerAdapter):
 logger = logging.getLogger('actions')
 logger.setLevel(logging.INFO)
 handler = logging.StreamHandler()
+#handler = logging.FileHandler( '/var/log/myapp.log' )
 
 formatter = logging.Formatter(
     fmt = '%(asctime)s\t%(message)s\t%(user_id)s\t%(key_id)s\t%(ext_params)s',
