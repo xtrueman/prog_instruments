@@ -1,0 +1,959 @@
+event: ns : Nanoseconds
+events: ns
+summary: 803582208
+fl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py
+fn=<module>
+1 6791
+cfl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py
+cfn=__init__
+calls=10 83
+1 1917
+cfl=~
+cfn=<built-in method builtins.__build_class__>
+calls=1 0
+1 9417
+
+fl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py
+fn=_Feature
+81 666
+
+fl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py
+fn=__init__
+83 1917
+
+fl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/_distutils_hack/__init__.py
+fn=find_spec
+89 3958
+cfl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/_distutils_hack/__init__.py
+cfn=<lambda>
+calls=2 96
+89 209
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=2 0
+89 458
+cfl=~
+cfn=<built-in method builtins.locals>
+calls=2 0
+89 792
+cfl=~
+cfn=<method 'format' of 'str' objects>
+calls=2 0
+89 958
+
+fl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/_distutils_hack/__init__.py
+fn=<lambda>
+96 209
+
+fl=<frozen importlib._bootstrap>
+fn=_new_module
+48 667
+
+fl=<frozen importlib._bootstrap>
+fn=__init__:71
+71 1750
+cfl=~
+cfn=<built-in method _thread.allocate_lock>
+calls=4 0
+71 708
+
+fl=<frozen importlib._bootstrap>
+fn=acquire
+100 3833
+cfl=~
+cfn=<built-in method _thread.get_ident>
+calls=2 0
+100 209
+cfl=~
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=2 0
+100 292
+
+fl=<frozen importlib._bootstrap>
+fn=release
+125 2874
+cfl=~
+cfn=<built-in method _thread.get_ident>
+calls=2 0
+125 334
+cfl=~
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=2 0
+125 375
+
+fl=<frozen importlib._bootstrap>
+fn=__init__:165
+165 457
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__:169
+169 5250
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=2 100
+169 4334
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=2 179
+169 9250
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__:173
+173 2167
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=2 125
+173 3583
+
+fl=<frozen importlib._bootstrap>
+fn=_get_module_lock
+179 6416
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:71
+calls=2 71
+179 2458
+cfl=~
+cfn=<built-in method _imp.acquire_lock>
+calls=2 0
+179 250
+cfl=~
+cfn=<built-in method _imp.release_lock>
+calls=2 0
+179 126
+
+fl=<frozen importlib._bootstrap>
+fn=cb
+198 1791
+cfl=~
+cfn=<built-in method _imp.acquire_lock>
+calls=2 0
+198 208
+cfl=~
+cfn=<built-in method _imp.release_lock>
+calls=2 0
+198 250
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+198 167
+
+fl=<frozen importlib._bootstrap>
+fn=_call_with_frames_removed
+233 3292
+cfl=~
+cfn=<built-in method _imp.create_dynamic>
+calls=1 0
+233 388417
+cfl=~
+cfn=<built-in method _imp.exec_dynamic>
+calls=1 0
+233 1583
+cfl=~
+cfn=<built-in method _imp.find_frozen>
+calls=2 0
+233 542
+cfl=~
+cfn=<built-in method builtins.exec>
+calls=1 0
+233 20416
+
+fl=<frozen importlib._bootstrap>
+fn=_verbose_message
+244 6668
+
+fl=<frozen importlib._bootstrap>
+fn=__init__:357
+357 1209
+
+fl=<frozen importlib._bootstrap>
+fn=cached
+392 2334
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_cached
+calls=2 567
+392 17083
+
+fl=<frozen importlib._bootstrap>
+fn=parent
+405 1124
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=2 0
+405 209
+
+fl=<frozen importlib._bootstrap>
+fn=has_location
+413 292
+
+fl=<frozen importlib._bootstrap>
+fn=_init_module_attrs
+493 6833
+cfl=<frozen importlib._bootstrap>
+cfn=cached
+calls=3 392
+493 19417
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=2 405
+493 1333
+cfl=<frozen importlib._bootstrap>
+cfn=has_location
+calls=2 413
+493 292
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=12 0
+493 8584
+
+fl=<frozen importlib._bootstrap>
+fn=module_from_spec
+566 6374
+cfl=<frozen importlib._bootstrap>
+cfn=_new_module
+calls=1 48
+566 667
+cfl=<frozen importlib._bootstrap>
+cfn=_init_module_attrs
+calls=2 493
+566 36459
+cfl=<frozen importlib._bootstrap_external>
+cfn=create_module:931
+calls=1 931
+566 83
+cfl=<frozen importlib._bootstrap_external>
+cfn=create_module:1231
+calls=1 1231
+566 391167
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+566 584
+
+fl=<frozen importlib._bootstrap>
+fn=_load_unlocked
+666 7583
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=2 244
+666 376
+cfl=<frozen importlib._bootstrap>
+cfn=module_from_spec
+calls=2 566
+666 435334
+cfl=<frozen importlib._bootstrap_external>
+cfn=exec_module:934
+calls=1 934
+666 103833
+cfl=<frozen importlib._bootstrap_external>
+cfn=exec_module:1239
+calls=1 1239
+666 3541
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+666 374
+cfl=~
+cfn=<method 'pop' of 'dict' objects>
+calls=2 0
+666 334
+
+fl=<frozen importlib._bootstrap>
+fn=find_spec:748
+748 1084
+cfl=~
+cfn=<built-in method _imp.is_builtin>
+calls=2 0
+748 999
+
+fl=<frozen importlib._bootstrap>
+fn=find_spec:920
+920 1251
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=2 233
+920 1541
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__:1026
+1026 1961
+cfl=~
+cfn=<built-in method _imp.acquire_lock>
+calls=8 0
+1026 790
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__:1030
+1030 2000
+cfl=~
+cfn=<built-in method _imp.release_lock>
+calls=8 0
+1030 793
+
+fl=<frozen importlib._bootstrap>
+fn=_find_spec
+1054 15790
+cfl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/_distutils_hack/__init__.py
+cfn=find_spec
+calls=2 89
+1054 6375
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec:748
+calls=2 748
+1054 2083
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec:920
+calls=2 920
+1054 2792
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:1026
+calls=8 1026
+1054 2751
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:1030
+calls=8 1030
+1054 2793
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec:1496
+calls=2 1496
+1054 190000
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load_unlocked
+1120 8374
+cfl=<frozen importlib._bootstrap>
+cfn=_load_unlocked
+calls=2 666
+1120 551375
+cfl=<frozen importlib._bootstrap>
+cfn=_find_spec
+calls=2 1054
+1120 222584
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=2 0
+1120 333
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load
+1165 12252
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:165
+calls=2 165
+1165 457
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:169
+calls=2 169
+1165 18834
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:173
+calls=2 173
+1165 5750
+cfl=<frozen importlib._bootstrap>
+cfn=cb
+calls=2 198
+1165 2416
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load_unlocked
+calls=2 1120
+1165 782666
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=4 0
+1165 417
+
+fl=<frozen importlib._bootstrap_external>
+fn=_relax_case
+67 2125
+
+fl=<frozen importlib._bootstrap_external>
+fn=_unpack_uint32
+84 1917
+cfl=~
+cfn=<built-in method builtins.len>
+calls=3 0
+84 250
+cfl=~
+cfn=<built-in method from_bytes>
+calls=3 0
+84 334
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_join
+126 15963
+cfl=<frozen importlib._bootstrap_external>
+cfn=<listcomp>
+calls=32 128
+126 20206
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=32 0
+126 4501
+
+fl=<frozen importlib._bootstrap_external>
+fn=<listcomp>
+128 15035
+cfl=~
+cfn=<method 'rstrip' of 'str' objects>
+calls=66 0
+128 5171
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_split
+132 2416
+cfl=~
+cfn=<built-in method builtins.max>
+calls=2 0
+132 3584
+
+fl=<frozen importlib._bootstrap_external>
+fn=<genexpr>
+134 1457
+cfl=~
+cfn=<method 'rfind' of 'str' objects>
+calls=2 0
+134 417
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_stat
+140 2794
+cfl=~
+cfn=<built-in method posix.stat>
+calls=10 0
+140 39666
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_is_mode_type
+150 1249
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=2 140
+150 11792
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_isfile
+159 1460
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_is_mode_type
+calls=2 150
+159 13041
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_isabs
+180 1167
+cfl=~
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+180 583
+
+fl=<frozen importlib._bootstrap_external>
+fn=cache_from_source
+437 6042
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join
+calls=2 126
+437 3125
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_split
+calls=2 132
+437 6000
+cfl=~
+cfn=<built-in method posix.fspath>
+calls=2 0
+437 250
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=2 0
+437 333
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=2 0
+437 292
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_cached
+567 5917
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source
+calls=1 437
+567 10375
+cfl=~
+cfn=<method 'endswith' of 'str' objects>
+calls=3 0
+567 791
+
+fl=<frozen importlib._bootstrap_external>
+fn=_check_name_wrapper
+599 1000
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_filename
+calls=1 1122
+599 125
+
+fl=<frozen importlib._bootstrap_external>
+fn=_classify_pyc
+642 2250
+cfl=<frozen importlib._bootstrap_external>
+cfn=_unpack_uint32
+calls=1 84
+642 1417
+cfl=~
+cfn=<built-in method builtins.len>
+calls=1 0
+642 167
+
+fl=<frozen importlib._bootstrap_external>
+fn=_validate_timestamp_pyc
+675 958
+cfl=<frozen importlib._bootstrap_external>
+cfn=_unpack_uint32
+calls=2 84
+675 1084
+
+fl=<frozen importlib._bootstrap_external>
+fn=_compile_bytecode
+727 2500
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 244
+727 167
+cfl=~
+cfn=<built-in method _imp._fix_co_filename>
+calls=1 0
+727 125
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+727 125
+cfl=~
+cfn=<built-in method marshal.loads>
+calls=1 0
+727 14875
+
+fl=<frozen importlib._bootstrap_external>
+fn=spec_from_file_location
+778 4999
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:357
+calls=2 357
+778 1209
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isabs
+calls=2 180
+778 1750
+cfl=~
+cfn=<built-in method posix.fspath>
+calls=2 0
+778 167
+
+fl=<frozen importlib._bootstrap_external>
+fn=create_module:931
+931 83
+
+fl=<frozen importlib._bootstrap_external>
+fn=exec_module:934
+934 6708
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=1 233
+934 20792
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_code
+calls=1 1007
+934 76333
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_code
+1007 10914
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 244
+1007 292
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source
+calls=1 437
+1007 5667
+cfl=<frozen importlib._bootstrap_external>
+cfn=_check_name_wrapper
+calls=1 599
+1007 1125
+cfl=<frozen importlib._bootstrap_external>
+cfn=_classify_pyc
+calls=1 642
+1007 3834
+cfl=<frozen importlib._bootstrap_external>
+cfn=_validate_timestamp_pyc
+calls=1 675
+1007 2042
+cfl=<frozen importlib._bootstrap_external>
+cfn=_compile_bytecode
+calls=1 727
+1007 17792
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_data
+calls=1 1127
+1007 29292
+cfl=<frozen importlib._bootstrap_external>
+cfn=path_stats
+calls=1 1146
+1007 5375
+
+fl=<frozen importlib._bootstrap_external>
+fn=__init__:1097
+1097 208
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_filename
+1122 125
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_data
+1127 3834
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+1127 167
+cfl=~
+cfn=<built-in method io.open_code>
+calls=1 0
+1127 19833
+cfl=~
+cfn=<method '__exit__' of '_io._IOBase' objects>
+calls=1 0
+1127 1666
+cfl=~
+cfn=<method 'read' of '_io.BufferedReader' objects>
+calls=1 0
+1127 3792
+
+fl=<frozen importlib._bootstrap_external>
+fn=path_stats
+1146 708
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=1 140
+1146 4667
+
+fl=<frozen importlib._bootstrap_external>
+fn=__init__:1220
+1220 250
+
+fl=<frozen importlib._bootstrap_external>
+fn=create_module:1231
+1231 1333
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=1 233
+1231 389417
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 244
+1231 417
+
+fl=<frozen importlib._bootstrap_external>
+fn=exec_module:1239
+1239 832
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=1 233
+1239 2500
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 244
+1239 209
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_importer_cache
+1421 4081
+cfl=~
+cfn=<built-in method posix.getcwd>
+calls=2 0
+1421 30000
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_spec:1464
+1464 14628
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_importer_cache
+calls=9 1421
+1464 34081
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec:1604
+calls=7 1604
+1464 136375
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=7 0
+1464 1166
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=9 0
+1464 792
+
+fl=<frozen importlib._bootstrap_external>
+fn=find_spec:1496
+1496 2958
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1464
+calls=2 1464
+1496 187042
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_spec:1599
+1599 5667
+cfl=<frozen importlib._bootstrap_external>
+cfn=spec_from_file_location
+calls=2 778
+1599 8125
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__:1097
+calls=1 1097
+1599 208
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__:1220
+calls=1 1220
+1599 250
+
+fl=<frozen importlib._bootstrap_external>
+fn=find_spec:1604
+1604 35996
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=30 244
+1604 5207
+cfl=<frozen importlib._bootstrap_external>
+cfn=_relax_case
+calls=7 67
+1604 2125
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join
+calls=30 126
+1604 37545
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=7 140
+1604 26001
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isfile
+calls=2 159
+1604 14501
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1599
+calls=2 1599
+1604 14250
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=7 0
+1604 750
+
+fl=euler_7.py
+fn=<module>
+1 56416
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=2 1165
+1 822792
+cfl=euler_7.py
+cfn=get_prime_numbers
+calls=1 15
+1 802552250
+cfl=~
+cfn=<built-in method builtins.print>
+calls=1 0
+1 139333
+
+fl=euler_7.py
+fn=is_prime
+7 696945192
+cfl=~
+cfn=<built-in method math.sqrt>
+calls=350375 0
+7 15434670
+
+fl=euler_7.py
+fn=get_prime_numbers
+15 75602377
+cfl=euler_7.py
+cfn=is_prime
+calls=350375 7
+15 712379862
+cfl=~
+cfn=<built-in method builtins.len>
+calls=350376 0
+15 13461879
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=29999 0
+15 1108132
+
+fl=~
+fn=<built-in method _imp._fix_co_filename>
+0 125
+
+fl=~
+fn=<built-in method _imp.acquire_lock>
+0 1248
+
+fl=~
+fn=<built-in method _imp.create_dynamic>
+0 388417
+
+fl=~
+fn=<built-in method _imp.exec_dynamic>
+0 1583
+
+fl=~
+fn=<built-in method _imp.find_frozen>
+0 542
+
+fl=~
+fn=<built-in method _imp.is_builtin>
+0 999
+
+fl=~
+fn=<built-in method _imp.release_lock>
+0 1169
+
+fl=~
+fn=<built-in method _thread.allocate_lock>
+0 708
+
+fl=~
+fn=<built-in method _thread.get_ident>
+0 543
+
+fl=~
+fn=<built-in method builtins.__build_class__>
+0 8751
+cfl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py
+cfn=_Feature
+calls=1 81
+0 666
+
+fl=~
+fn=<built-in method builtins.exec>
+0 13708
+cfl=/opt/homebrew/Cellar/python@3.11/3.11.5/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py
+cfn=<module>
+calls=1 1
+0 18125
+cfl=euler_7.py
+cfn=<module>
+calls=1 1
+0 803570791
+
+fl=~
+fn=<built-in method builtins.getattr>
+0 9042
+
+fl=~
+fn=<built-in method builtins.hasattr>
+0 2124
+
+fl=~
+fn=<built-in method builtins.isinstance>
+0 1084
+
+fl=~
+fn=<built-in method builtins.len>
+0 13462296
+
+fl=~
+fn=<built-in method builtins.locals>
+0 792
+
+fl=~
+fn=<built-in method builtins.max>
+0 1710
+cfl=<frozen importlib._bootstrap_external>
+cfn=<genexpr>
+calls=4 134
+0 1874
+
+fl=~
+fn=<built-in method builtins.print>
+0 139333
+
+fl=~
+fn=<built-in method from_bytes>
+0 334
+
+fl=~
+fn=<built-in method io.open_code>
+0 19833
+
+fl=~
+fn=<built-in method marshal.loads>
+0 14875
+
+fl=~
+fn=<built-in method math.sqrt>
+0 15434670
+
+fl=~
+fn=<built-in method posix.fspath>
+0 417
+
+fl=~
+fn=<built-in method posix.getcwd>
+0 30000
+
+fl=~
+fn=<built-in method posix.stat>
+0 39666
+
+fl=~
+fn=<method '__exit__' of '_io._IOBase' objects>
+0 1666
+
+fl=~
+fn=<method '__exit__' of '_thread.lock' objects>
+0 667
+
+fl=~
+fn=<method 'append' of 'list' objects>
+0 1108132
+
+fl=~
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 1584
+
+fl=~
+fn=<method 'endswith' of 'str' objects>
+0 791
+
+fl=~
+fn=<method 'format' of 'str' objects>
+0 958
+
+fl=~
+fn=<method 'get' of 'dict' objects>
+0 584
+
+fl=~
+fn=<method 'join' of 'str' objects>
+0 4834
+
+fl=~
+fn=<method 'pop' of 'dict' objects>
+0 334
+
+fl=~
+fn=<method 'read' of '_io.BufferedReader' objects>
+0 3792
+
+fl=~
+fn=<method 'rfind' of 'str' objects>
+0 417
+
+fl=~
+fn=<method 'rpartition' of 'str' objects>
+0 1584
+
+fl=~
+fn=<method 'rstrip' of 'str' objects>
+0 5171
+
+fl=~
+fn=<method 'startswith' of 'str' objects>
+0 583
+
