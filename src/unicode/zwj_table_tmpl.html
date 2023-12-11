@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .row {
+            display: flex;
+        }
+        .cell-ver {
+            border: 1px solid grey;
+            padding: 10px;
+            width: 200px;
+            text-align: left;
+            font-size: 3em;
+        }
+        .cell-codepoints {
+            border: 1px solid grey;
+            padding: 10px;
+            width: 300px;
+            text-align: left;
+        }
+        .cell-decomposed {
+            border: 1px solid grey;
+            padding: 10px;
+            width: 330px;
+            text-align: left;
+            font-size: 4em;
+        }
+        .cell-compound {
+            border: 1px solid grey;
+            padding: 10px;
+            width: 200px;
+            text-align: left;
+            font-size: 7em;
+        }
+        .cell-desc {
+            border: 1px solid grey;
+            padding: 10px;
+            width: 100px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+{% for row in zwj_sequences %}
+    <div class="row">
+        <div class="cell-ver">{{row['version']}}</div>
+        <div class="cell-codepoints">{{row['codepoints']}}</div>
+        <div class="cell-decomposed">{{row['decomposed']}}</div>
+        <div class="cell-compound">{{row['combined_emoji']}}</div>
+        <div class="cell-desc">{{row['description']}}</div>
+    </div>
+{% endfor %}
+</body>
+</html>

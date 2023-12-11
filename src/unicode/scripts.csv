@@ -1,0 +1,195 @@
+Key	Name	Characters
+Adlm	Adlam	88
+Afak	Afaka	0
+Aghb	Caucasian Albanian	53
+Ahom	Ahom	58
+Arab	Arabic	1291
+Aran	Arabic (Nastaliq variant)	0
+Armi	Imperial Aramaic	31
+Armn	Armenian	96
+Avst	Avestan	61
+Bali	Balinese	121
+Bamu	Bamum	657
+Bass	Bassa Vah	36
+Batk	Batak	56
+Beng	Bengali	96
+Bhks	Bhaiksuki	97
+Blis	Blissymbols	0
+Bopo	Bopomofo	77
+Brah	Brahmi	109
+Brai	Braille	256
+Bugi	Buginese	30
+Buhd	Buhid	20
+Cakm	Chakma	71
+Cans	Unified Canadian Aboriginal Syllabics	710
+Cari	Carian	49
+Cham	Cham	83
+Cher	Cherokee	172
+Cirt	Cirth	0
+Copt	Coptic	137
+Cpmn	Cypro-Minoan	0
+Cprt	Cypriot syllabary	55
+Cyrl	Cyrillic	443
+Cyrs	Cyrillic (Slavonic variant)	0
+Deva	Devanagari	154
+Dogr	Dogra	60
+Dsrt	Deseret	80
+Dupl	Duployan shorthand	143
+Egyd	Egyptian demotic	0
+Egyh	Egyptian hieratic	0
+Egyp	Egyptian hieroglyphs	1080
+Elba	Elbasan	40
+Ethi	Ethiopic	495
+Geok	Khutsuri	0
+Geor	Georgian	173
+Glag	Glagolitic	132
+Gong	Gunjala Gondi	63
+Gonm	Masaram Gondi	75
+Goth	Gothic	27
+Gran	Grantha	85
+Grek	Greek	518
+Gujr	Gujarati	91
+Guru	Gurmukhi	80
+Hanb	Han with Bopomofo	0
+Hang	Hangul	11739
+Hani	Han (Hanzi Kanji Hanja)	94204
+Hano	Hanunoo	21
+Hans	Han (Simplified variant)	0
+Hant	Han (Traditional variant)	0
+Hatr	Hatran	26
+Hebr	Hebrew	134
+Hira	Hiragana	379
+Hluw	Anatolian Hieroglyphs	583
+Hmng	Pahawh Hmong	127
+Hmnp	Nyiakeng Puachue Hmong	71
+Hrkt	Japanese syllabaries	0
+Hung	Old Hungarian	108
+Inds	Indus	0
+Ital	Old Italic	39
+Jamo	Jamo	0
+Java	Javanese	90
+Jpan	Japanese	0
+Jurc	Jurchen	0
+Kali	Kayah Li	47
+Kana	Katakana	304
+Khar	Kharoshthi	68
+Khmr	Khmer	146
+Khoj	Khojki	62
+Kitl	Khitan large script	0
+Kits	Khitan small script	471
+Knda	Kannada	89
+Kore	Korean	0
+Kpel	Kpelle	0
+Kthi	Kaithi	67
+Lana	Tai Tham	127
+Laoo	Lao	82
+Latf	Latin (Fraktur variant)	0
+Latg	Latin (Gaelic variant)	0
+Latn	Latin	1374
+Leke	Leke	0
+Lepc	Lepcha	74
+Limb	Limbu	68
+Lina	Linear A	341
+Linb	Linear B	211
+Lisu	Lisu	49
+Loma	Loma	0
+Lyci	Lycian	29
+Lydi	Lydian	27
+Mahj	Mahajani	39
+Maka	Makasar	25
+Mand	Mandaic Mandaean	29
+Mani	Manichaean	51
+Marc	Marchen	68
+Maya	Mayan hieroglyphs	0
+Medf	Medefaidrin	91
+Mend	Mende Kikakui	213
+Merc	Meroitic Cursive	90
+Mero	Meroitic Hieroglyphs	32
+Mlym	Malayalam	118
+Modi	Modi	79
+Mong	Mongolian	167
+Moon	Moon	0
+Mroo	Mro	43
+Mtei	Meitei Mayek	79
+Mult	Multani	38
+Mymr	Myanmar	223
+Narb	Old North Arabian	32
+Nbat	Nabataean	40
+Newa	Newa	97
+Nkdb	Naxi Dongba	0
+Nkgb	Naxi Geba	0
+Nkoo	N’Ko	62
+Nshu	Nüshu	397
+Ogam	Ogham	29
+Olck	Ol Chiki	48
+Orkh	Old Turkic	73
+Orya	Oriya	91
+Osge	Osage	72
+Osma	Osmanya	40
+Palm	Palmyrene	32
+Pauc	Pau Cin Hau	57
+Perm	Old Permic	43
+Phag	Phags-pa	56
+Phli	Inscriptional Pahlavi	27
+Phlp	Psalter Pahlavi	29
+Phlv	Book Pahlavi	0
+Phnx	Phoenician	29
+Piqd	Klingon	0
+Plrd	Miao	149
+Prti	Inscriptional Parthian	30
+Qaaa	Reserved for private use (start)	0
+Qabx	Reserved for private use (end)	0
+Rjng	Rejang	37
+Roro	Rongorongo	0
+Runr	Runic	86
+Samr	Samaritan	61
+Sara	Sarati	0
+Sarb	Old South Arabian	32
+Saur	Saurashtra	82
+Sgnw	SignWriting	672
+Shaw	Shavian	48
+Shrd	Sharada	96
+Shui	Shuishu	0
+Sidd	Siddham	92
+Sind	Khudawadi	69
+Sinh	Sinhala	111
+Sora	Sora Sompeng	35
+Soyo	Soyombo	83
+Sund	Sundanese	72
+Sylo	Syloti Nagri	45
+Syrc	Syriac	88
+Syre	Syriac (Estrangelo variant)	0
+Syrj	Syriac (Western variant)	0
+Syrn	Syriac (Eastern variant)	0
+Tagb	Tagbanwa	18
+Takr	Takri	67
+Tale	Tai Le	35
+Talu	New Tai Lue	83
+Taml	Tamil	123
+Tang	Tangut	6914
+Tavt	Tai Viet	72
+Telu	Telugu	98
+Teng	Tengwar	0
+Tfng	Tifinagh	59
+Tglg	Tagalog	20
+Thaa	Thaana	50
+Thai	Thai	86
+Tibt	Tibetan	207
+Tirh	Tirhuta	82
+Ugar	Ugaritic	31
+Vaii	Vai	300
+Visp	Visible Speech	0
+Wara	Warang Citi	84
+Wcho	Wancho	59
+Wole	Woleai	0
+Xpeo	Old Persian	50
+Xsux	Cuneiform Sumero-Akkadian	1234
+Yiii	Yi	1220
+Zanb	Zanabazar Square	72
+Zinh	Code for inherited script	573
+Zmth	Mathematical notation	0
+Zsye	Symbols (Emoji variant)	0
+Zsym	Symbols	0
+Zxxx	Code for unwritten documents	0
+Zyyy	Code for undetermined script	8087
+Zzzz	Code for uncoded script	0
