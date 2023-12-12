@@ -30,7 +30,7 @@
 
 - [Async IO Python](https://www.scaler.com/topics/asyncio-python/)
 - [Guide to Concurrency in Python with Asyncio](https://www.integralist.co.uk/posts/python-asyncio/)
-
+- [Intro to Asynchronous Python with Asyncio](https://hackersandslackers.com/python-concurrency-asyncio/)
 
 ## Видео
 
