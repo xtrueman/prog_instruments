@@ -10,6 +10,7 @@
 ](https://habr.com/ru/articles/671798/)
 - [Асинхронная многопоточность в Python](https://nuancesprog.ru/p/13287/)
 - [Python async/await руководство: базовая теория и практика](https://imgvoid.medium.com/python-async-await-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%B8-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-f970e29854b3)
+- [Асинхронное программирование. Библиотека asyncio](https://cs.mipt.ru/advanced_python/lessons/lab10.html)
 
 ### Конкретные приложения asyncio
 
@@ -18,6 +19,11 @@
 ### На понимание синтаксиса / сопрограмм
 
 - [Сопрограммы в Python](https://habr.com/ru/articles/196918/)
+
+### Примеры кода
+
+- [Курс "Асинхронный Python и Asyncio" (Карта)](https://boosty.to/omolchanov/posts/34ef77a6-e947-4505-8d81-9667276448ba)
+- [asynchronous_python_molchanov.zip](https://www.patreon.com/file?h=26640469&i=3746546) (примеры кода async)
 
 
 ## Видео
