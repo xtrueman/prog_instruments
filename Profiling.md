@@ -20,3 +20,4 @@
 ## Видео
 
 - [Профайлинг и оптимизация в Python](https://www.youtube.com/watch?v=UnSxeC-QrEc)
+- [Память и Python. Что надо знать для счастья?](https://www.youtube.com/watch?v=D0vbuIDOV4c)
