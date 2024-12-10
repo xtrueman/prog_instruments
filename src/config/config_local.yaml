@@ -1,0 +1,7 @@
+database:
+  port: 3306
+  username: dev_user
+  password: dev_secret
+
+logging:
+  level: debug

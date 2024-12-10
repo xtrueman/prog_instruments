@@ -1,0 +1,12 @@
+<database>
+    <host>localhost</host>
+    <port>5432</port>
+    <credentials>
+        <username>admin</username>
+        <password>secret</password>
+    </credentials>
+</database>
+<logging>
+    <level>info</level>
+    <file>app.log</file>
+</logging>
