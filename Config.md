@@ -359,11 +359,15 @@ print(final_config)
 
 Вывод:
 ```python
-{'database': {'host': 'localhost',
-              'password': 'dev_secret',
-              'port': 3306,
-              'username': 'dev_user'},
- 'logging': {'file': 'app.log', 'level': 'debug'}}
+{'database':
+    {'host': 'localhost',
+      'password': 'dev_secret',
+      'port': 3306,
+      'username': 'dev_user'},
+ 'logging':
+    {'file': 'app.log',
+     'level': 'debug'}
+}
 ```
 
 
