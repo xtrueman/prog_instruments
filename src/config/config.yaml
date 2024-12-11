@@ -1,9 +1,25 @@
+# comment
 database:
   host: localhost
-  port: 5432
+  port: 5432 # comment
   username: admin
-  password: admin123
+  password: "admin123"
 
 logging:
   level: info
   file: app.log
+
+modules:
+  data_processor:
+    batch_size: 100
+    retry_attempts: 3
+  machine_learning:
+    model: "xgboost"
+    learning_rate: 0.01
+
+ids: [1, 2, 3, 4, 5]
+users:
+  - { name: Alice, role: admin }
+  - { name: Bob, role: editor }
+  - { name: Charlie, role: viewer }
+
