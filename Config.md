@@ -517,6 +517,15 @@ username = "admin"
 password = "secret"
 ```
 
+Альтернативная запись:
+```toml
+[database]
+host = "localhost"
+port = 5432
+credentials.username = "admin"
+credentials.password = "secret"
+```
+
 Вот как будет выглядеть в python
 ```python
 {
@@ -549,17 +558,19 @@ file = "app.log"
 
 ```python
 import tomllib  # Встроено в Python 3.11+
+# import toml # — если используете Python ниже версии 3.11
 
+# Функция для чтения TOML-файла
 def load_toml_config(file_path):
-    with open(file_path, "rb") as file: # binary
+    # Открываем в режиме 'rb'
+    with open(file_path, "rb") as file:
         return tomllib.load(file)
 
+# Загружаем конфигурацию
 config = load_toml_config("config.toml")
 
-# Доступ к параметрам
-print("Database Host:", config["database"]["host"])
-print("DB User:", config["database"]["credentials"]["username"])
-print("Logging Level:", config["logging"]["level"])
+# Выводим конфигурацию
+print(config)
 ```
 
 #### XML
