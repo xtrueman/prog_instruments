@@ -558,7 +558,7 @@ file = "app.log"
 
 ```python
 import tomllib  # Встроено в Python 3.11+
-# import toml # — если используете Python ниже версии 3.11
+# import toml # — если Python < 3.11
 
 # Функция для чтения TOML-файла
 def load_toml_config(file_path):
