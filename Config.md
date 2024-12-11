@@ -297,13 +297,14 @@ users:
 - Выполнение произвольного кода: YAML поддерживает сериализацию сложных объектов, и при загрузке YAML-файла с помощью небезопасных парсеров (например, `yaml.load()` в Python) злоумышленники могут внедрить вредоносный код, который будет выполнен при десериализации файла.
     - Однако, можно использовать `yaml.safe_load()` и будет счастье
 
+Пример чтения:
 ```python
 import yaml
 
 with open("config.yaml", "r", encoding='utf-8') as file:
     config = yaml.safe_load(file)
 
-  print(config["database"]["host"])
+    print(config["database"]["host"])
 ```
 
 ##### Послойные конфиги
