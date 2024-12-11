@@ -1,0 +1,9 @@
+{
+  "environment": "dev", 
+  "logging": {
+    "level": "debug",
+    "file": "/var/log/app.log",
+    "max_file_size": "10MB"
+  },
+  "debug": true
+}
