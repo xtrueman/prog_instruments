@@ -177,6 +177,35 @@ logging:
   file: "/var/log/app.log"    # Из config.yaml (так как не было замен)
 ```
 
+### Слияние конфигов с помощью готовых библиотек
+
+Есть ряд готовых библилиотек для слияния структур данных, примеры:
+```python
+from deepmerge import always_merger
+from toolz import merge_with
+import pydash
+```
+deepmerge — лучший выбор, если вам нужна библиотека, специально предназначенная для глубокого объединения словарей.
+
+```python
+from deepmerge import always_merger
+from pprint import pprint
+
+base = {
+    'database': { 'host': 'localhost', 'port': 5432, 'username': 'admin' },
+    'logging': { 'file': 'app.log', 'level': 'info'}
+}
+
+override = {
+    'database': { 'port': 3306, 'username': 'dev_user', 'password': 'secret' },
+    'logging': { 'level': 'debug' }
+}
+
+# Используем always_merger для объединения
+merged_config = always_merger.merge( base, override )
+pprint( merged_config )
+```
+
 ## Где хранить конфиги?
 
 - Прямо в модулях любого ЯП. (Python и т.п.),
@@ -370,28 +399,6 @@ print(final_config)
 }
 ```
 
-
-###### Слияние конфигов с помощью готовых библиотек
-
-```python
-from deepmerge import always_merger
-from pprint import pprint
-
-base = {
-    'database': { 'host': 'localhost', 'port': 5432, 'username': 'admin' },
-    'logging': { 'file': 'app.log', 'level': 'info'}
-}
-
-override = {
-    'database': { 'port': 3306, 'username': 'dev_user', 'password': 'secret' },
-    'logging': { 'level': 'debug' }
-}
-
-# Используем always_merger для объединения
-merged_config = always_merger.merge( base, override )
-pprint( merged_config )
-```
-
 #### JSON — JavaScript Object Notation
 
 JavaScript Object Notation — текстовый формат обмена данными, основанный на JavaScript. Как и многие другие текстовые форматы, JSON легко читается людьми.
@@ -417,9 +424,22 @@ JavaScript Object Notation — текстовый формат обмена да
     "port": 5432,
     "username": "user",
     "password": "pass"
-  }
+  },
+  "array": [1, 2, 3, 4, 5]
 }
 ```
+
+```python
+import json
+
+# Считываем конфигурацию из файла
+with open('config.json', 'r') as file:
+    config = json.load(file)
+
+# Выводим конфигурацию
+print(config)
+```
+
 
 #### INI — Initialization file
 
