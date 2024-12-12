@@ -1083,7 +1083,12 @@ schema = Schema({
 
 # Пример конфига
 config = {
-    'database': {'host': 'localhost', 'port': 5432, 'username': 'admin', 'password': 'secret'},
+    'database': {
+        'host': 'localhost',
+        'port': 543222,
+        'username': 'admin',
+        'password': 'thetopsecret'
+    },
     'logging': {'level': 'info', 'file': '/var/log/app.log'}
 }
 
