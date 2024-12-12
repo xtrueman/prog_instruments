@@ -876,6 +876,13 @@ JSON Schema — это стандарт для описания структур
 
 ###### XSD (XML Schema Definition) — Схема для XML
 
+Вообще, схем для XML много:
+- XSD (XML Schema Definition),
+- DTD (Document Type Definition) (устарел),
+- Relax NG,
+- Schematron.
+
+Пример XML Schema Definition:
 ```xml
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="config">
@@ -905,7 +912,71 @@ JSON Schema — это стандарт для описания структур
 </xs:schema>
 ```
 
-###### Валидация универсальными валидаторами (pydantic, voluptuous)
+##### Инструменты для проверки схем
+
+###### Для JSON (Проверка по JSON Schema)
+
+- ajv (для JSON Schema)
+- jsonschema (Python CLI)
+- jtd (для JSON Type Definition)
+
+Примеры запуска:
+```bash
+npx ajv validate -s schema.json -d config.json
+
+jsonschema -i config.json schema.json
+```
+
+###### YAML (Проверка по JSON Schema или YAML Schema)
+
+- yamllint (синтаксическая проверка YAML)
+- ajv (проверка YAML как JSON)
+- yamale (валидатор YAML-файлов)
+
+```bash
+yamllint config.yaml
+
+yamale --schema schema.yaml config.yaml
+```
+
+###### XML (Проверка по XSD-схеме)
+
+- xmllint (системная утилита для проверки синтаксиса и XSD)
+- xmlstarlet (обработка и проверка XML-файлов)
+- xmlschema (Python-библиотека для проверки XSD)
+
+```bash
+xmllint --schema schema.xsd --noout config.xml
+
+xmlstarlet val --xsd schema.xsd config.xml
+```
+
+###### TOML (Проверка синтаксиса и схемы)
+
+- tq (TOML query)
+- toml-validator (валидатор TOML-файлов)
+- tomlkit (Python-библиотека)
+
+```bash
+toml-validator config.toml
+
+npm install -g toml-validator
+
+python3 -c "import tomllib; tomllib.load(open('config.toml', 'rb'))"
+```
+
+###### HCL (проверка HCL-файлов)
+
+- hcl2 (CLI для обработки HCL-файлов)
+- terraform validate (проверка HCL-файлов для Terraform)
+
+```bash
+hcl2-lint config.hcl
+
+terraform validate
+```
+
+##### Валидация универсальными валидаторами (pydantic, voluptuous)
 
 Pydantic и Voluptuous (можно их считать универсальными валидаторами) — способны валидировать различные типы данных, хранящихся в разных форматах (JSON, YAML, INI, TOML, ENV, XML, HCL и др.).
 Они работают не с конкретными файлами, а со структурами данных python (словари, списки, строки, числа и т.д.), которые можно получить из любого формата хранения данных.
