@@ -22,4 +22,3 @@ users:
   - { name: Alice, role: admin }
   - { name: Bob, role: editor }
   - { name: Charlie, role: viewer }
-
