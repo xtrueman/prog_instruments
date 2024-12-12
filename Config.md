@@ -810,7 +810,7 @@ print(response['data']['data'])
     - Отдельная утилита или опция командной строки для валидации конфигов
     - С помощью pydantic можно валидировать конфиги при загрузке.
 
-<img src="https://media.licdn.com/dms/image/D4E12AQFB7dKsCqC7VA/article-cover_image-shrink_720_1280/0/1693039973797?e=2147483647&v=beta&t=ByzrNAgRQwRWhL6dEhwJzXlMiG9WEGn_0R2mX132vxY" width="800">
+<img src="https://media.licdn.com/dms/image/D4E12AQFB7dKsCqC7VA/article-cover_image-shrink_720_1280/0/1693039973797?e=2147483647&v=beta&t=ByzrNAgRQwRWhL6dEhwJzXlMiG9WEGn_0R2mX132vxY" width="600">
 
 ### Валидация конфигов
 
@@ -826,7 +826,7 @@ print(response['data']['data'])
     - При запуске приложения мы в любом случае читаем / валидируем конфиг
     - При указании специального аргумента ком. сроки проводим только этап чтения / валидации конфига и дальше не идём
 
-<img src="https://babok-school.ru/wp-content/uploads/2021/12/ver_val_req0.png" width="600">
+<img src="https://babok-school.ru/wp-content/uploads/2021/12/ver_val_req0.png" width="300">
 
 #### Валидация с помощью схем
 
