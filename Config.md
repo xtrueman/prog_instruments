@@ -968,7 +968,7 @@ class Config(BaseModel):
     logging: LoggingConfig
 ```
 
-Более сложное описание схемы с различными валидациями:
+Более сложное описание схемы с различными ограничениями на значения:
 ```python
 from pydantic import BaseModel, Field, ValidationError
 
@@ -1030,7 +1030,7 @@ except ValidationError as e:
 ]
 ```
 
-Как вывести ошибку более «читаемым» способом:
+Как вывести ошибки более «читаемым» способом:
 ```python
 try:
     config = Config(**data_with_errors)
