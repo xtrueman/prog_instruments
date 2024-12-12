@@ -27,4 +27,4 @@ final_config = merge_dicts(base_config, local_config)
 
 # Результат
 print("Итоговая конфигурация:")
-pprint(final_config)
+pprint(final_config, width=40, compact=False, indent=2)
